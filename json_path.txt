@@ -1,4 +1,4 @@
 0) $..friends..name
 1) $..activities..hobbies
 2) $..activities[1].*
-3. $[0].friends..hobbies[0]
+3) $[0].friends..hobbies[0]
