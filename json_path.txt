@@ -2,3 +2,5 @@
 1) $..activities..hobbies
 2) $..activities[1].*
 3) $[0].friends..hobbies[0]
+400) $[?(@.city=="Portland")][?(@.age<35)].name
+500) $.[?(@.hobbies contains 'Music' || @.friends[*].hobbies[*] contains 'Music')].name
